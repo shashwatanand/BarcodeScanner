@@ -19,5 +19,14 @@
             id="com.shashwat.barcodescanner.perspective">
       </perspective>
    </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.shashwat.barcodescanner.view.ViewPart"
+            id="com.shashwat.barcodescanner.app.view"
+            name="ControlView"
+            restorable="true">
+      </view>
+   </extension>
 
 </plugin>

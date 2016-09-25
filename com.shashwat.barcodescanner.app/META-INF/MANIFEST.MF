@@ -8,6 +8,10 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Activator: com.shashwat.barcodescanner.app.Activator
-Bundle-ClassPath: libs/core-3.3.0.jar,
- libs/jmf-2.1.1e.jar,
+Bundle-ClassPath: libs/webcam-capture-0.3.10-dist/libs/slf4j-api-1.7.2.jar,
+ libs/core-3.3.0.jar,
+ libs/javase-3.3.0.jar,
+ libs/webcam-capture-0.3.10-dist/libs/bridj-0.6.2.jar,
+ libs/webcam-capture-0.3.10.jar,
  .
+Bundle-ActivationPolicy: lazy

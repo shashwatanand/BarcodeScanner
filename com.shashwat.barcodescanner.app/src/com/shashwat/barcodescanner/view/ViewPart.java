@@ -55,10 +55,10 @@ public class ViewPart extends org.eclipse.ui.part.ViewPart {
 		control.destroyComposite();
 		Display display = this.parentComp.getDisplay();
 		display.beep();
-		Clipboard cb = new Clipboard(display);
+		/*Clipboard cb = new Clipboard(display);
 		TextTransfer transfer = TextTransfer.getInstance();
 		cb.setContents(new Object[] { result.getText() }, new Transfer[] { transfer });
-		cb.dispose();
+		cb.dispose();*/
 		Browser browser = new Browser(this.parentComp, SWT.NONE);
 		browser.setUrl(result.getText());
 		this.parentComp.getShell().setMaximized(true);

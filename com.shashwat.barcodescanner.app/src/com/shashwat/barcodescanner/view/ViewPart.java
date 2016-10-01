@@ -4,9 +4,6 @@ import org.eclipse.core.runtime.CoreException;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.browser.Browser;
-import org.eclipse.swt.dnd.Clipboard;
-import org.eclipse.swt.dnd.TextTransfer;
-import org.eclipse.swt.dnd.Transfer;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
@@ -55,10 +52,6 @@ public class ViewPart extends org.eclipse.ui.part.ViewPart {
 		control.destroyComposite();
 		Display display = this.parentComp.getDisplay();
 		display.beep();
-		/*Clipboard cb = new Clipboard(display);
-		TextTransfer transfer = TextTransfer.getInstance();
-		cb.setContents(new Object[] { result.getText() }, new Transfer[] { transfer });
-		cb.dispose();*/
 		Browser browser = new Browser(this.parentComp, SWT.NONE);
 		browser.setUrl(result.getText());
 		this.parentComp.getShell().setMaximized(true);

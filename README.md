@@ -1,3 +1,3 @@
 # BarcodeScanner
 
-Currently it reads QR code
+Sample Eclipse RCP application which scanns barcode and qr code.

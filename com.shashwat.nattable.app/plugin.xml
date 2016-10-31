@@ -12,6 +12,10 @@
                name="applicationCSS"
                value="platform:/plugin/com.shashwat.nattable.app/css/default.css">
          </property>
+         <property
+               name="appName"
+               value="com.shashwat.nattable.app">
+         </property>
       </product>
    </extension>
 

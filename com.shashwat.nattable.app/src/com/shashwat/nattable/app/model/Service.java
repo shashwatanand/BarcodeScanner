@@ -48,14 +48,21 @@ public class Service {
 		person.setMarried(ranGen.nextBoolean());
 		
 		int month = ranGen.nextInt(12);
+		if (month == 0) {
+			month++;
+		}
 	    
 		int day = 0;
-	    if (month == 2) {
-	      day = ranGen.nextInt(28);
-	    } else {
-	      day = ranGen.nextInt(30);
+		if (month == 2) {
+			day = ranGen.nextInt(28);
+		} else if (month == 4 || month == 6 || month == 9 || month == 11) {
+			day = ranGen.nextInt(31);
+		} else {
+			day = ranGen.nextInt(31);
+		}
+	    if (day == 0) {
+	    	day++;
 	    }
-	    
 	    int year = 1920 + ranGen.nextInt(90);
 		
 		LocalDate date = LocalDate.of(year, month, day);

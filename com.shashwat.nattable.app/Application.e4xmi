@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_c3AF0MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.application" bindingContexts="_c3AF2cjYEeSyMNYR5xypkQ">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="Nat Table Examples App" width="500" height="400">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="Nat Table Examples App" width="600" height="400">
     <children xsi:type="basic:PartStack" xmi:id="_raI0oJ9EEeadErwpx8OEfA" elementId="com.shashwat.nattable.app.partstack">
-      <children xsi:type="basic:Part" xmi:id="_sopPIJ9EEeadErwpx8OEfA" elementId="com.shashwat.nattable.app.part.nattableexampleview" contributionURI="bundleclass://com.shashwat.nattable.app/com.shashwat.nattable.app.view.NattableViewPart" label="Nat Table Example View"/>
+      <children xsi:type="basic:Part" xmi:id="_sopPIJ9EEeadErwpx8OEfA" elementId="com.shashwat.nattable.app.part.nattableexampleview" contributionURI="bundleclass://com.shashwat.nattable.app/com.shashwat.nattable.app.view.NattableExampleViewPart" label="Nat Table Example View"/>
+      <children xsi:type="basic:Part" xmi:id="_4vOCUJ_nEeadJqtxPHjMjg" elementId="com.shashwat.nattable.app.part.nattablelayerview" contributionURI="bundleclass://com.shashwat.nattable.app/com.shashwat.nattable.app.view.NatTableLayerViewPart" label="Nat Table Layer View"/>
     </children>
   </children>
   <rootContext xmi:id="_c3AF2cjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">

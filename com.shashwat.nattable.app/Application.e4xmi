@@ -4,6 +4,7 @@
     <children xsi:type="basic:PartStack" xmi:id="_raI0oJ9EEeadErwpx8OEfA" elementId="com.shashwat.nattable.app.partstack">
       <children xsi:type="basic:Part" xmi:id="_sopPIJ9EEeadErwpx8OEfA" elementId="com.shashwat.nattable.app.part.nattableexampleview" contributionURI="bundleclass://com.shashwat.nattable.app/com.shashwat.nattable.app.view.NattableExampleViewPart" label="Nat Table Example View"/>
       <children xsi:type="basic:Part" xmi:id="_4vOCUJ_nEeadJqtxPHjMjg" elementId="com.shashwat.nattable.app.part.nattablelayerview" contributionURI="bundleclass://com.shashwat.nattable.app/com.shashwat.nattable.app.view.NatTableLayerViewPart" label="Nat Table Layer View"/>
+      <children xsi:type="basic:Part" xmi:id="_lFAJQKP_EeaXIqn9c280pA" elementId="com.shashwat.nattable.app.part.nattablecompositionview" contributionURI="bundleclass://com.shashwat.nattable.app/com.shashwat.nattable.app.view.NatTableCompositionViewPart" label="Nat Table Composition View"/>
     </children>
   </children>
   <rootContext xmi:id="_c3AF2cjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
